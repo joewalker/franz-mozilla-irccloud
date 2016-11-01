@@ -1,0 +1,23 @@
+{
+  "name": "mozilla-irc",
+  "version": "0.0.1",
+  "description": "Mozilla IRCCloud",
+  "main": "index.js",
+  "author": "Joe Walker <jwalker@mozilla.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://irccloud.mozilla.com/",
+    "serviceName": "Mozilla IRCCloud",
+    "message": "This code could fall into the right hands",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
