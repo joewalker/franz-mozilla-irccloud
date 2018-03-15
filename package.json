@@ -1,23 +1,15 @@
 {
-  "name": "mozilla-irc",
-  "version": "0.0.1",
-  "description": "Mozilla IRCCloud",
-  "main": "index.js",
-  "author": "Joe Walker <jwalker@mozilla.com>",
-  "license": "MIT",
-  "config": {
-    "serviceURL": "https://irccloud.mozilla.com/",
-    "serviceName": "Mozilla IRCCloud",
-    "message": "This code could fall into the right hands",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "id": "mozilla-irccloud",
+    "name": "Mozilla IRCCloud",
+    "version": "5.0.0",
+    "description": "This code could fall into the right hands",
+    "main": "index.js",
+    "author": "Joe Walker <jwalker@mozilla.com>",
+    "license": "MIT",
+    "repository": "https://github.com/joewalker/franz-mozilla-irccloud",
+    "config": {
+      "serviceURL": "https://irccloud.mozilla.com/",
+      "hasDirectMessages": true,
+      "hasIndirectMessages": true
+    }
   }
-}
